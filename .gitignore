@@ -1,0 +1,5 @@
+venv/
+queries/*
+!queries/.gitkeep
+
+__pycache__/
