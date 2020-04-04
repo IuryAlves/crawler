@@ -1,3 +1,6 @@
+![Crawler](https://github.com/IuryAlves/crawler/workflows/Crawler/badge.svg?branch=master)
+
+
 # WEB Crawler
 
 ## Installing 
