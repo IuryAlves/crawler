@@ -5,7 +5,7 @@ import sys
 import json
 
 
-from os.path import dirname, basename, abspath, join
+from os.path import dirname, abspath, join
 from crawler import Crawler
 from file_utils import list_files
 
@@ -36,4 +36,4 @@ def crawl():
 
 
 if __name__ == '__main__':
-   crawl()
+    crawl()

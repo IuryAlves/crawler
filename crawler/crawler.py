@@ -1,9 +1,7 @@
 # coding: utf-8
 
-import asyncio
 import logging
 import aiohttp
-from urllib.parse import urljoin, urlparse
 
 from lxml import html
 
@@ -52,4 +50,3 @@ class Crawler(AsyncCrawler):
             if element:
                 result[key] = element[0].text
         return result
-

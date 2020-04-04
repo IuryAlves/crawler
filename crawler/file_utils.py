@@ -17,5 +17,3 @@ def list_files(path, filter_by_extensions=None):
     files = os.listdir(path)
     for filename in filter(lambda file_: file_.split('.')[-1] in filter_by_extensions, files):
         yield read_file(join(path, filename))
-
-
